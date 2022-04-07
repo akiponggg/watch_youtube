@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>watch youtube</title>
+  </head>
+  <body>
+      <input id="i" type="textbox" onchange="document.getElementById('y').src='https://www.youtube.com/embed/'+document.getElementById('i').value.match(/[^=]+$/)[0]">
+      <iframe id="y" width="560" height="315" src="https://www.youtube.com/embed/m2GrCJK3YQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </body>
+</html>
